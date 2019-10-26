@@ -1,0 +1,132 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+.header {
+    background-attachment: fixed;
+    background-image: url(../pictures/music.jpg);
+    background-size: cover;
+    color: white;
+    padding: 300px;
+    background-position: left;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60px;
+    width: 65px;
+}
+
+.avatarstyle {
+    border-radius: 50px;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.noBullet {
+    list-style-type: none;
+    font-weight: normal;
+}
+
+#headerb {
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(54, 215, 255, 0.842);
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: rgb(175, 247, 253);
+}
+
+.text {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: large;
+    -webkit-text-fill-color: rgba(251, 251, 251, 0.918);
+    -webkit-text-stroke-color: rgba(22, 110, 192, 0.89);
+}
+
+.subheader1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#size1 {
+    color: rgba(202, 243, 243, 0.945);
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    font-size: 400%;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(14, 230, 230, 0.959);
+    text-shadow: 3px 3px 0 rgba(0, 132, 255, 0.904), -1px -1px 0 rgba(249, 250, 250, 0.692);
+}
+
+#size2 {
+    width: 400px;
+    text-align: justify;
+    font-size: 24px;
+    position: absolute;
+    top: 290px;
+    left: 205px;
+    /* font-size: 150%;*/
+    color: rgba(11, 128, 238, 0.555);
+    -webkit-text-fill-color: rgba(3, 3, 3, 0.856);
+    text-shadow: 3px 3px 0 rgba(22, 110, 192, 0.226), -1px -1px 0 rgba(14, 230, 230, 0.993);
+}
+
+.gray {
+    background-color: rgba(153, 143, 143, 0.596);
+    padding: 20px 20px;
+}
+
+.textgray {
+    text-align: center;
+}
+
+#text3 {
+    text-align: justify;
+    padding: 0px 200px;
+    width: 900px;
+    vertical-align: middle;
+    font-size: larger;
+}
+
+.buttong {
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    position: relative;
+    left: 570px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.buttong:hover {
+    background-color: rgba(5, 8, 8, 0.609);
+}

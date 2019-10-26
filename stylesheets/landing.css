@@ -1,0 +1,36 @@
+#lmain {
+    background-image: url(../pictures/wallpaper-1740491.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#ltxt {
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(253, 14, 153);
+}
+
+#ltxt1 {
+    text-align: center;
+    color: rgb(204, 113, 159);
+}
+
+.lbtn {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(rgb(221, 123, 172)));
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 570px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.lbtn:hover {
+    text-decoration: wavy;
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(rgb(70, 10, 40)));
+}

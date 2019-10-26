@@ -1,0 +1,70 @@
+    .btnheader {
+        display: flex;
+        padding: 10px;
+        background-color: #a6d7f3;
+        width: inherit;
+        height: 100px;
+        margin-top: 50px;
+    }
+    
+    #btntext {
+        color: rgb(0, 151, 252);
+        font-size: 20px;
+        float: left;
+        margin-left: 400px;
+        position: relative;
+        top: 30px;
+        right: 50px;
+    }
+    
+    .customSearch {
+        float: center;
+        padding: 15px;
+        position: relative;
+        right: 50px;
+    }
+    
+    .custom-input {
+        position: relative;
+        left: 0px;
+        height: 50px;
+        padding: 0px 105px;
+        font-size: 14px;
+        border: 1px solid #0076a3;
+        border-right: 0px;
+        border-top-left-radius: 80px 60px;
+        border-bottom-left-radius: 80px 60px;
+    }
+    
+    .custom-input::placeholder {
+        /* Firefox, Chrome, Opera */
+        text-align: left;
+    }
+    
+    .custom-input:-ms-input-placeholder {
+        /* Internet Explorer */
+        text-align: right;
+    }
+    
+    .searchBtn {
+        margin: 0;
+        height: 44px;
+        background: #0095cd;
+        border: 0px;
+        padding: 4px 30px;
+        border-bottom-right-radius: 80px 60px;
+        border-top-right-radius: 80px 60px;
+        cursor: pointer;
+        font-size: 14px;
+        text-decoration: none;
+        background: -webkit-gradient(linear, left top, left bottom, from(#14b5f0), to(#0079a5));
+        position: absolute;
+        top: 15px;
+        left: 70;
+    }
+    
+    .searchBtn:hover {
+        text-decoration: none;
+        background: #007ead;
+        background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    }

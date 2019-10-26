@@ -1,0 +1,168 @@
+.wpttxt {
+    text-align: center;
+    color: rgba(31, 3, 11, 0.986);
+    background: -webkit-gradient(linear, left top, left bottom, from(#2baddd), to(#9b2791));
+}
+
+#wptimg {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-left: 620px;
+}
+
+.wptxt {
+    color: rgba(31, 3, 11, 0.986);
+    -webkit-text-fill-color: rgba(247, 6, 106, 0.993);
+    text-shadow: 3px 5px 0 rgba(18, 24, 31, 0.164), -1px -1px 0 rgb(99, 211, 226);
+    text-align: center;
+    padding: 10px 50px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Caption text */
+
+#wptxt1 {
+    float: left;
+    margin-top: 0px;
+    margin-left: 540px;
+}
+
+#wptxt2 {
+    margin-top: 0px;
+    float: left;
+    margin-left: 253px;
+}
+
+#wptxt3 {
+    float: left;
+    margin-top: 0px;
+    margin-left: 575px;
+}
+
+#wptxt4 {
+    margin-top: 0px;
+    float: left;
+    margin-left: 343px;
+}
+
+.mySlides {
+    display: none
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    background-image: url(../pictures/audience.jpg);
+    background-attachment: fixed;
+    padding: 0px;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    background-color: rgba(14, 125, 129, 0.637);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+}
+
+
+/* Position the "previous button" to the left */
+
+.prev {
+    left: 0;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #4b4a4a;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+#sbtn {
+    margin-bottom: 50px;
+}

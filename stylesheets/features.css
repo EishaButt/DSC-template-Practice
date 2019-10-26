@@ -1,0 +1,51 @@
+.fmain {
+    margin-bottom: 150px;
+}
+
+#ftxt {
+    text-align: center;
+}
+
+.ftxt1 {
+    margin-top: 50px;
+}
+
+.fsm1 {
+    text-align: justify;
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding: 50px;
+    margin-top: 40px;
+    padding-left: 40px;
+    margin-left: 70px;
+}
+
+.fsm2 {
+    text-align: justify;
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.fsm3 {
+    text-align: justify;
+    width: 300px;
+    height: 50px;
+    float: right;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    margin-right: 80px;
+}
+
+#fimg {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
